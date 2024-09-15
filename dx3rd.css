@@ -5,17 +5,90 @@ body {
 .effect-name {
   color: #800;
 }
-.effect {
+.infobox {
   padding: 1em;
-  margin: 1em;
-  background-color: #eeeef2;
+  margin: 1em 0 1.5em;
+  background-color: #f2f2f2;
+	border: 2px solid #cccccc;
 }
+.effect::before {
+				display: block;
+				width: fit-content;
+				margin-top: -2em;
+				margin-left: -0.5em;
+				padding: 0.1em .5em 0.1em;
+				margin-bottom: .2em;
+				background-color: #9985ff;
+				color: #fff;
+				content: "Effect";
+				font-variant: small-caps;
+				font-size: 90%;
+				font-weight: bold;
+}
+.effect {
+  background-color: #f8f8fa !important;
+	border: 2px solid #aa99ff !important;
+}
+.vehicle::before {
+				display: block;
+				width: fit-content;
+				margin-top: -2em;
+				margin-left: -0.5em;
+				padding: 0.1em .5em 0.1em;
+				margin-bottom: .2em;
+				background-color: #d8a880;
+				color: #fff;
+				content: "Vehicle";
+				font-variant: small-caps;
+				font-size: 90%;
+				font-weight: bold;
+}
+.vehicle {
+  background-color: #faf8f7 !important;
+	border: 2px solid #e0b0a0 !important;
+}
+.weapon::before {
+				display: block;
+				width: fit-content;
+				margin-top: -2em;
+				margin-left: -0.5em;
+				padding: 0.1em .5em 0.1em;
+				margin-bottom: .2em;
+				background-color: #fa8444;
+				color: #fff;
+				content: "Weapon";
+				font-variant: small-caps;
+				font-size: 90%;
+				font-weight: bold;
+}
+.weapon {
+  background-color: #fcf9f3 !important;
+	border: 2px solid #fe8a66 !important;
+}
+
 .step {
   color: #282;
 }
 .bracket {
   color: #951;
 }
+.newspaper {
+  margin: .8em 0 1em;
+  padding: .5em 1em .5em;
+	border: 1px solid #888;
+  background-color: #fdfbee;
+	font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", serif;
+	font-size: 110%;
+}
+tr:nth-child(2n) {
+				background-color: rgba(0, 0, 0, 0.05);
+}
+table {
+				border: 2px solid rgba(0, 0, 0, 0.10);
+				background-color: #fefefe;
+				margin: 0.2em 0 0.5em;
+				}
+
 h2 {
   border-left: #2a2  solid 6px;
   padding-left: .3em;
