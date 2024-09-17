@@ -94,10 +94,18 @@ h2 {
   padding-left: .3em;
 }
 h4 {
-  margin: 0;
+  margin: .2em 0 .1em;
+	font-size: 100%;
 }
 h4::before {
   content: "■";
+}
+h5 {
+  margin: 0;
+	font-size: 100%;
+}
+h5::before {
+  content: "○";
 }
 p {
   text-indent: 1em;
